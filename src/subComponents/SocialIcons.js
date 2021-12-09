@@ -38,7 +38,7 @@ const SocialIcons = (props) => {
             whileHover={{scale: 1.3, originX: 0, color: '#f8e112'}}
             transition={{type:'spring', duration:1, delay:1}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/ghosty47"}}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -48,7 +48,7 @@ const SocialIcons = (props) => {
             whileHover={{scale: 1.3, originX: 0, color: '#f8e112'}}
             transition={{type:'spring', duration:1, delay:1.2}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/code_bucks"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/_usoroh"}}>
                     <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -58,7 +58,7 @@ const SocialIcons = (props) => {
             whileHover={{scale: 1.3, originX: 0, color: '#f8e112'}}
             transition={{type:'spring', duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://facebook.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://facebook.com/mfon.usotex"}}>
                     <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>

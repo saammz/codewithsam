@@ -16,8 +16,6 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
-
 `
 
 const Main = styled.div`
@@ -26,7 +24,7 @@ color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
 width: 30vw;
-height: 60vh;
+height: 65vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
@@ -83,63 +81,63 @@ ul,p{
 const MySkillsPage = () => {
     return (
         <ThemeProvider theme={lightTheme}>
-<Box>
+        <Box>
 
-<LogoComponent theme='light'/>
-<SocialIcons theme='light'/>
-<PowerButton />
-<ParticleComponent theme='light' />
+            <LogoComponent theme='light'/>
+            <SocialIcons theme='light'/>
+            <PowerButton />
+            <ParticleComponent theme='light' />
             <Main>
-<Title>
-    <Design width={40} height={40} /> Designer
-</Title>
-<Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
-</Description>
-<Description>
-<strong>I like to Design</strong>
-<ul>
-    <li>
-        Web Design
-    </li>
-    <li>
-        Mobile Apps
-    </li>
-</ul>
-</Description>
-<Description>
-<strong>Tools</strong>
-<ul>
-    <li>
-       Figma
-    </li>
-    <li>
-       Adobe Xd
-    </li>
-    
-</ul>
-</Description>
+                <Title>
+                    <Design width={40} height={40} /> Designer
+                </Title>
+                <Description>
+                    I love to create design which speaks, Keep it clean, minimal and simple.
+                </Description>
+                <Description>
+                <strong>I like to Design</strong>
+                <ul>
+                    <li>
+                        Web Design
+                    </li>
+                    <li>
+                        Mobile Apps
+                    </li>
+                </ul>
+                </Description>
+                <Description>
+                <strong>Tools</strong>
+                <ul>
+                    <li>
+                        Figma
+                    </li>
+                    <li>
+                        Adobe Xd
+                    </li>
+                    
+                </ul>
+                </Description>
 
             </Main>
             <Main>
-<Title>
-    <Develope width={40} height={40} /> Mobile/FullStack Developer
-</Title>
-<Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-</Description>
-<Description>
-<strong>Skills</strong>
-<p>
-Flutter, Context API's,  Js, React, Redux, Styled-Components, Material UI, Bootstrap, Tailwind, Firebase, Mongodb, Nodejs etc.
-</p>
-</Description>
-<Description>
-<strong>Tools</strong>
-<p>
-VScode, Github, Linux etc.
-</p>
-</Description>
+                <Title>
+                    <Develope width={40} height={40} /> Mobile/FullStack Developer
+                </Title>
+                <Description>
+                    I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+                </Description>
+                <Description>
+                    <strong>Skills</strong>
+                    <p>
+                        Flutter, Context API's, React, Redux, Styled-Components, Material UI, Bootstrap, Tailwind, Firebase, Mongodb, Nodejs etc.
+                    </p>
+                </Description>
+                <Description>
+                    <strong>Tools</strong>
+                    <p>
+                        VScode, Github, Linux etc.
+                    </p>
+                </Description>
 
             </Main>
 

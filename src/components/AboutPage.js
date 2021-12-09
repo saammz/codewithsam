@@ -72,11 +72,7 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+            Usoroh is a FullStack Developer with years of hands-on experience designing, developing, and implementing eye-catching applications and providing solutions using a range of technologies and programming languages. <br></br> <br></br> He is seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a FullStack Developer. He loves to Game and play chess during his free hours<br></br> <br></br> He believes everything is an Art when you put your consciousness in it. You can connect with him via social links.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

@@ -7,55 +7,55 @@ export const Work = [
         description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
         tags:["react","gsap","styledComponents"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://agencysiteapp.herokuapp.com/",
+        github:"https://github.com/ghosty47/Agencysite"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Keeper App",
+        description:"A Google like keeper app to document your works built on ReactJs and React Hooks.",
+        tags:["react","React Hooks"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://google-keeper-app-clone.herokuapp.com",
+        github:"https://github.com/ghosty47/keeper-app"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
+        name:"Millionaire Quiz",
         description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
         tags:["react","api","sass"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://quiz-billionaire.herokuapp.com",
+        github:"https://github.com/ghosty47/billionareapp"
     },
     {
         id:4,
-        name:"Sidebar Menu",
+        name:"Universal-Dashboard",
         description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        tags:["react","CSS","react-router, Material-UI"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://universal-dashboard.herokuapp.com",
+        github:"https://github.com/ghosty47/adminDashboard"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Huddle Landing Page",
+        description:"A responsive Huddle landing page built with ReactJs and styled-components.",
+        tags:["react","styled-components","CSS"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://huddle-a.herokuapp.com/",
+        github:"https://github.com/ghosty47/Styled-components"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
+        name:"An mini e-commerce website",
+        description:"An e-commerce shopping web application built from scratch with React",
         tags:["react","react-router","css"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://frooto-online-shop.herokuapp.com/",
+        github:"https://github.com/ghosty47/"
         
     },
     
