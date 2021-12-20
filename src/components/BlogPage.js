@@ -5,8 +5,8 @@ import LogoComponent from '../subComponents/LogoComponent'
 import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton  from '../subComponents/PowerButton'
 
-import {Blogs} from '../data/BlogData';
-import BlogComponent from './BlogComponent'
+// import {Blogs} from '../data/BlogData';
+// import BlogComponent from './BlogComponent'
 import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
 import { motion } from 'framer-motion'
@@ -18,11 +18,12 @@ background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
+height: 100%;
 `
 const Container = styled.div`
 background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
 width: 100%;
-height:auto;
+height: 100vh;
 
 position: relative;
 padding-bottom: 5rem;
@@ -84,9 +85,9 @@ const BlogPage = () => {
 <Grid>
 
 {
-    Blogs.map(blog => {
-        return <BlogComponent key={blog.id} blog={blog} />
-    })
+    // Blogs.map(blog => {
+    //     return <BlogComponent key={blog.id} blog={blog} />
+    // })
 }
 </Grid>
 
