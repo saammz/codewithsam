@@ -121,7 +121,7 @@ const MySkillsPage = () => {
             </Main>
             <Main>
                 <Title>
-                    <Develope width={40} height={40} /> Mobile/FullStack Developer
+                    <Develope width={40} height={40} /> FullStack Developer
                 </Title>
                 <Description>
                     I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.

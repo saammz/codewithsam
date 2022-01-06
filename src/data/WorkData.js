@@ -55,7 +55,27 @@ export const Work = [
         tags:["react","react-router","css"],
         
         demo:"https://frooto-online-shop.herokuapp.com/",
-        github:"https://github.com/ghosty47/"
+        github:"https://github.com/GodfreySam/waaw-e-commerce"
+        
+    },
+    {
+        id:7,
+        name:"A feedback app",
+        description:"A simple yet beautiful feedback application that takes in customer or individual feedbacks and stores the information on the server",
+        tags:["react","react-router","css","context-API"],
+        
+        demo:"https://customer-feedback-app.netlify.app/",
+        github:"https://github.com/ghosty47/feedbackapp"
+        
+    },
+    {
+        id:8,
+        name:"A Github finder(still in progress)",
+        description:"A React app to search GitHub profiles and see profile details, user repositories, and a lot more",
+        tags:["react","react-router","Tailwind-css","Daisy-UI","Context-API"],
+        
+        demo:"https://giithub-finder.herokuapp.com/",
+        github:"https://github.com/ghosty47/github-finder"
         
     },
     
