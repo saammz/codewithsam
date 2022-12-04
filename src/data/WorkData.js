@@ -71,7 +71,7 @@ export const Work = [
     },
     {
         id:8,
-        name:"An e-commerce website (in-Production)",
+        name:"An e-commerce website",
         description:"An e-commerce shopping web application built from scratch with React",
         tags:["react","react-router","css", "redux","tailwind"],
         
