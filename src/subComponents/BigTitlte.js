@@ -16,10 +16,10 @@ z-index:0;
 
 const BigTitlte = (props) => {
 	return (
-		<Text  top={props.top}  left={props.left}  right={props.right}>
+		<Text top={props.top}  left={props.left}  right={props.right}>
 			{props.text}
 		</Text>
 	)
 }
 
-export default BigTitlte
+export default BigTitlte;
